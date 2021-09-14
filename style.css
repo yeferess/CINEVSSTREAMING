@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+}
+
+h1{
+    font-size: 3rem;
+    margin-left: 30px;
+}
+
+form {
+    margin: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.numeroPeliculas{
+    font-size: 2.5rem;
+    margin: 0 auto;
+}
+
+h3 {
+    margin-top:60px;
+    font-size: 2.5rem;
+}
+
+form fieldset{
+    width: 80%;    
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: none;
+    margin-top:100px;
+    margin-bottom: 60px;
+}
+
+.apps {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+form fieldset label img {
+    width: 150px;
+    height: 150px;
+}
+
+.resultado {
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 60px;
+    width: 500px;
+    font-size: 2.5rem;
+}

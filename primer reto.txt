@@ -1,0 +1,6 @@
+reto del js challenge+
+
+1 cuantas peliculas o series ven mensualmente
+2 en cual de las plataformas vas a ver las series o peliculas
+
+3 comparar cual sale mas barato 

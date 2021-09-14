@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apps Streaming vs Cine</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <h1>
+        Cine vs Streaming APPS
+    </h1>
+
+    <form action="encuesta">
+        <div class="numeroPeliculas">
+            <label for="numeroPeliculas">Cuantas Peliculas ves en el mes?</label>
+            <input type="number" id="numeroPeliculas">
+        </div>
+        <h3>Elige Tus Plataformas</h3>
+        <fieldset>
+            
+                <div class="apps">
+                    <label for="netflix"><img src="./images/Netflix-Logo-png.jpg" alt=""></label>
+                    <input type="radio" id="netflix">
+                </div>
+                
+
+                <div class="apps">
+                     <label for="prime"><img src="./images/prime-video-logo.png" alt=""></label>
+                     <input type="radio" id="prime">
+                </div>
+            
+
+            <div class="apps">
+                <label for="hbo"><img src="./images/490x_HBO-Max-logo-2019-elpoderdelasideas2.png" alt=""></label>
+                <input type="radio" id="hbo">                
+            </div>
+
+            <div class="apps">
+                
+                <label for="disney"><img src="./images/descarga.png" alt=""></label>
+                <input type="radio" id="disney">
+            </div>
+        </fieldset>
+        <input type="button" name="" id="" onclick="calcular()" value="Calcular">
+    </form>
+    
+    <p id="resultado" class="resultado"></p>
+    <script src="./index.js"></script>
+</body>
+</html>
